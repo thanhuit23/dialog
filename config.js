@@ -13,7 +13,7 @@ const os = require('os');
 const config =
 {
 	// Listening hostname (just for `gulp live` task).
-	domain : process.env.DOMAIN || 'localhost',
+	domain : process.env.DOMAIN || 'dialog.teacherville.co.kr',
 	// Signaling settings (protoo WebSocket server and HTTP API server).
 	https  :
 	{
@@ -127,7 +127,7 @@ const config =
 			listenIps :
 			[
 				{
-					ip : process.env.MEDIASOUP_LISTEN_IP || '127.0.0.1'
+					ip : process.env.MEDIASOUP_LISTEN_IP || '211.188.33.243'
 				},
 				{
 					ip          : '0.0.0.0',

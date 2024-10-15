@@ -62,3 +62,6 @@ typings/
 
 .serverless
 results
+certs/fullchain.pem
+certs/perms.pub.pem
+certs/privkey.pem
